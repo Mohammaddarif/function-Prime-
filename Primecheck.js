@@ -1,12 +1,12 @@
-function prime(num){
-  let fac=0
-for(let i=1;i<num;i++){
-if(num%i==0){
+function prime(number){
+  let factors=0
+for(let i=1;i<number;i++){
+if(number%i==0){
     
-fac++
+factor++
 }
 }
-if(fac==2){
+if(factor==2){
   
 return true
 }
@@ -17,5 +17,5 @@ if(ans==true){
  console.log("Prime Number")
 }else{
  console.log("Not a Prime")
-
+;
 }
