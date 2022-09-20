@@ -1,21 +1,21 @@
 function prime(num){
-  let fac=0
+  let factor=0
 for(let i=1;i<num;i++){
 if(num%i==0){
     
-fac++
+factor++;
 }
 }
-if(fac==2){
+if(factor==2){
   
-return true
+return true;
 }
-return false
+return false;
 }
-let ans=prime(16)
+let ans=prime(16);
 if(ans==true){
- console.log("Prime Number")
+ console.log("Prime Number");
 }else{
- console.log("Not a Prime")
+ console.log("Not a Prime");
 
 }
